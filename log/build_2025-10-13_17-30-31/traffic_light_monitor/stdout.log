@@ -13,11 +13,17 @@ running build_py
 creating /home/ajr/lud_a6w_main/build/traffic_light_monitor/build
 creating /home/ajr/lud_a6w_main/build/traffic_light_monitor/build/lib
 creating /home/ajr/lud_a6w_main/build/traffic_light_monitor/build/lib/traffic_light_monitor
+copying traffic_light_monitor/traffic_light_publisher.py -> /home/ajr/lud_a6w_main/build/traffic_light_monitor/build/lib/traffic_light_monitor
+copying traffic_light_monitor/traffic_light_subscriber.py -> /home/ajr/lud_a6w_main/build/traffic_light_monitor/build/lib/traffic_light_monitor
 copying traffic_light_monitor/__init__.py -> /home/ajr/lud_a6w_main/build/traffic_light_monitor/build/lib/traffic_light_monitor
 running install
 running install_lib
 creating /home/ajr/lud_a6w_main/install/traffic_light_monitor/lib/python3.10/site-packages/traffic_light_monitor
+copying /home/ajr/lud_a6w_main/build/traffic_light_monitor/build/lib/traffic_light_monitor/traffic_light_publisher.py -> /home/ajr/lud_a6w_main/install/traffic_light_monitor/lib/python3.10/site-packages/traffic_light_monitor
+copying /home/ajr/lud_a6w_main/build/traffic_light_monitor/build/lib/traffic_light_monitor/traffic_light_subscriber.py -> /home/ajr/lud_a6w_main/install/traffic_light_monitor/lib/python3.10/site-packages/traffic_light_monitor
 copying /home/ajr/lud_a6w_main/build/traffic_light_monitor/build/lib/traffic_light_monitor/__init__.py -> /home/ajr/lud_a6w_main/install/traffic_light_monitor/lib/python3.10/site-packages/traffic_light_monitor
+byte-compiling /home/ajr/lud_a6w_main/install/traffic_light_monitor/lib/python3.10/site-packages/traffic_light_monitor/traffic_light_publisher.py to traffic_light_publisher.cpython-310.pyc
+byte-compiling /home/ajr/lud_a6w_main/install/traffic_light_monitor/lib/python3.10/site-packages/traffic_light_monitor/traffic_light_subscriber.py to traffic_light_subscriber.cpython-310.pyc
 byte-compiling /home/ajr/lud_a6w_main/install/traffic_light_monitor/lib/python3.10/site-packages/traffic_light_monitor/__init__.py to __init__.cpython-310.pyc
 running install_data
 creating /home/ajr/lud_a6w_main/install/traffic_light_monitor/share/ament_index

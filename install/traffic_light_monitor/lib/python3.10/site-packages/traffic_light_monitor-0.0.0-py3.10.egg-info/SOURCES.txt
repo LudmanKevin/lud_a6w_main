@@ -13,3 +13,5 @@ test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
 traffic_light_monitor/__init__.py
+traffic_light_monitor/traffic_light_publisher.py
+traffic_light_monitor/traffic_light_subscriber.py
