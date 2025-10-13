@@ -1,0 +1,83 @@
+[0.000000] (-) TimerEvent: {}
+[0.000372] (traffic_light_monitor) JobQueued: {'identifier': 'traffic_light_monitor', 'dependencies': OrderedDict()}
+[0.000424] (traffic_light_monitor) JobStarted: {'identifier': 'traffic_light_monitor'}
+[0.110205] (-) TimerEvent: {}
+[0.219752] (-) TimerEvent: {}
+[0.329148] (-) TimerEvent: {}
+[0.436364] (-) TimerEvent: {}
+[0.545435] (-) TimerEvent: {}
+[0.653835] (-) TimerEvent: {}
+[0.762255] (-) TimerEvent: {}
+[0.870607] (-) TimerEvent: {}
+[0.979347] (-) TimerEvent: {}
+[1.088799] (-) TimerEvent: {}
+[1.196842] (-) TimerEvent: {}
+[1.304953] (-) TimerEvent: {}
+[1.413923] (-) TimerEvent: {}
+[1.521577] (-) TimerEvent: {}
+[1.630612] (-) TimerEvent: {}
+[1.739159] (-) TimerEvent: {}
+[1.848382] (-) TimerEvent: {}
+[1.956857] (-) TimerEvent: {}
+[2.067118] (-) TimerEvent: {}
+[2.175848] (-) TimerEvent: {}
+[2.283605] (-) TimerEvent: {}
+[2.392724] (-) TimerEvent: {}
+[2.502166] (-) TimerEvent: {}
+[2.609498] (-) TimerEvent: {}
+[2.718891] (-) TimerEvent: {}
+[2.827906] (-) TimerEvent: {}
+[2.936646] (-) TimerEvent: {}
+[3.045838] (-) TimerEvent: {}
+[3.152593] (-) TimerEvent: {}
+[3.261946] (-) TimerEvent: {}
+[3.371201] (-) TimerEvent: {}
+[3.480081] (-) TimerEvent: {}
+[3.589171] (-) TimerEvent: {}
+[3.697545] (-) TimerEvent: {}
+[3.806988] (-) TimerEvent: {}
+[3.917170] (-) TimerEvent: {}
+[4.024928] (-) TimerEvent: {}
+[4.133164] (-) TimerEvent: {}
+[4.242446] (-) TimerEvent: {}
+[4.351687] (-) TimerEvent: {}
+[4.459982] (-) TimerEvent: {}
+[4.527039] (traffic_light_monitor) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/traffic_light_monitor', 'build', '--build-base', '/home/ajr/lud_a6w_main/build/traffic_light_monitor/build', 'install', '--record', '/home/ajr/lud_a6w_main/build/traffic_light_monitor/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ajr/lud_a6w_main/traffic_light_monitor', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ajr', 'GIT_ASKPASS': '/home/ajr/.vscode-server/bin/03c265b1adee71ac88f833e065f7bb956b60550a/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ajr', 'TERM_PROGRAM_VERSION': '1.105.0', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-ab91497c-89c9-4d6b-aef3-8d7cac07196e.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ajr/.vscode-server/bin/03c265b1adee71ac88f833e065f7bb956b60550a/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/ajr/.vscode-server/bin/03c265b1adee71ac88f833e065f7bb956b60550a/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/ajr/.vscode-server/extensions/ms-python.debugpy-2025.14.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'ajr1', '_colcon_cd_root': '/opt/ros/humble/', 'COLCON_PREFIX_PATH': '/home/ajr/lud_a6w_main/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ajr', 'NAME': 'DESKTOP-K3AFD89', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/home/ajr/.vscode-server/bin/03c265b1adee71ac88f833e065f7bb956b60550a/bin/remote-cli:/home/ajr/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Ludman Antal/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Ludman Antal/AppData/Local/Muse Hub/lib:/mnt/c/Users/Ludman Antal/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/ajr/.vscode-server/extensions/ms-python.debugpy-2025.14.0-linux-x64/bundled/scripts/noConfigScripts', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/ajr/.vscode-server/extensions/ms-python.debugpy-2025.14.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-9e856461de5019f6.txt', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/ajr/.vscode-server/data/User/workspaceStorage/7e975ed33c4280a5ca73ff3d115323a1/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-ec145f6a00.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '73', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ajr/lud_a6w_main/build/traffic_light_monitor', 'RCUTILS_COLORIZED_OUTPUT': '1', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ajr/lud_a6w_main/build/traffic_light_monitor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ajr/lud_a6w_main/install/traffic_light_monitor/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}, 'shell': False}
+[4.568778] (-) TimerEvent: {}
+[4.676990] (-) TimerEvent: {}
+[4.786351] (-) TimerEvent: {}
+[4.843415] (traffic_light_monitor) StdoutLine: {'line': b'running egg_info\n'}
+[4.843806] (traffic_light_monitor) StdoutLine: {'line': b'creating ../build/traffic_light_monitor/traffic_light_monitor.egg-info\n'}
+[4.844065] (traffic_light_monitor) StdoutLine: {'line': b'writing ../build/traffic_light_monitor/traffic_light_monitor.egg-info/PKG-INFO\n'}
+[4.844823] (traffic_light_monitor) StdoutLine: {'line': b'writing dependency_links to ../build/traffic_light_monitor/traffic_light_monitor.egg-info/dependency_links.txt\n'}
+[4.856091] (traffic_light_monitor) StdoutLine: {'line': b'writing entry points to ../build/traffic_light_monitor/traffic_light_monitor.egg-info/entry_points.txt\n'}
+[4.856447] (traffic_light_monitor) StdoutLine: {'line': b'writing requirements to ../build/traffic_light_monitor/traffic_light_monitor.egg-info/requires.txt\n'}
+[4.856728] (traffic_light_monitor) StdoutLine: {'line': b'writing top-level names to ../build/traffic_light_monitor/traffic_light_monitor.egg-info/top_level.txt\n'}
+[4.857229] (traffic_light_monitor) StdoutLine: {'line': b"writing manifest file '../build/traffic_light_monitor/traffic_light_monitor.egg-info/SOURCES.txt'\n"}
+[4.859345] (traffic_light_monitor) StdoutLine: {'line': b"reading manifest file '../build/traffic_light_monitor/traffic_light_monitor.egg-info/SOURCES.txt'\n"}
+[4.860108] (traffic_light_monitor) StdoutLine: {'line': b"writing manifest file '../build/traffic_light_monitor/traffic_light_monitor.egg-info/SOURCES.txt'\n"}
+[4.860348] (traffic_light_monitor) StdoutLine: {'line': b'running build\n'}
+[4.860478] (traffic_light_monitor) StdoutLine: {'line': b'running build_py\n'}
+[4.860715] (traffic_light_monitor) StdoutLine: {'line': b'creating /home/ajr/lud_a6w_main/build/traffic_light_monitor/build\n'}
+[4.860914] (traffic_light_monitor) StdoutLine: {'line': b'creating /home/ajr/lud_a6w_main/build/traffic_light_monitor/build/lib\n'}
+[4.861064] (traffic_light_monitor) StdoutLine: {'line': b'creating /home/ajr/lud_a6w_main/build/traffic_light_monitor/build/lib/traffic_light_monitor\n'}
+[4.861293] (traffic_light_monitor) StdoutLine: {'line': b'copying traffic_light_monitor/__init__.py -> /home/ajr/lud_a6w_main/build/traffic_light_monitor/build/lib/traffic_light_monitor\n'}
+[4.861933] (traffic_light_monitor) StdoutLine: {'line': b'running install\n'}
+[4.862322] (traffic_light_monitor) StdoutLine: {'line': b'running install_lib\n'}
+[4.863476] (traffic_light_monitor) StdoutLine: {'line': b'creating /home/ajr/lud_a6w_main/install/traffic_light_monitor/lib/python3.10/site-packages/traffic_light_monitor\n'}
+[4.863840] (traffic_light_monitor) StdoutLine: {'line': b'copying /home/ajr/lud_a6w_main/build/traffic_light_monitor/build/lib/traffic_light_monitor/__init__.py -> /home/ajr/lud_a6w_main/install/traffic_light_monitor/lib/python3.10/site-packages/traffic_light_monitor\n'}
+[4.865213] (traffic_light_monitor) StdoutLine: {'line': b'byte-compiling /home/ajr/lud_a6w_main/install/traffic_light_monitor/lib/python3.10/site-packages/traffic_light_monitor/__init__.py to __init__.cpython-310.pyc\n'}
+[4.866260] (traffic_light_monitor) StdoutLine: {'line': b'running install_data\n'}
+[4.866413] (traffic_light_monitor) StdoutLine: {'line': b'creating /home/ajr/lud_a6w_main/install/traffic_light_monitor/share/ament_index\n'}
+[4.866741] (traffic_light_monitor) StdoutLine: {'line': b'creating /home/ajr/lud_a6w_main/install/traffic_light_monitor/share/ament_index/resource_index\n'}
+[4.866908] (traffic_light_monitor) StdoutLine: {'line': b'creating /home/ajr/lud_a6w_main/install/traffic_light_monitor/share/ament_index/resource_index/packages\n'}
+[4.867099] (traffic_light_monitor) StdoutLine: {'line': b'copying resource/traffic_light_monitor -> /home/ajr/lud_a6w_main/install/traffic_light_monitor/share/ament_index/resource_index/packages\n'}
+[4.867647] (traffic_light_monitor) StdoutLine: {'line': b'copying package.xml -> /home/ajr/lud_a6w_main/install/traffic_light_monitor/share/traffic_light_monitor\n'}
+[4.868180] (traffic_light_monitor) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.870702] (traffic_light_monitor) StdoutLine: {'line': b'Copying ../build/traffic_light_monitor/traffic_light_monitor.egg-info to /home/ajr/lud_a6w_main/install/traffic_light_monitor/lib/python3.10/site-packages/traffic_light_monitor-0.0.0-py3.10.egg-info\n'}
+[4.875996] (traffic_light_monitor) StdoutLine: {'line': b'running install_scripts\n'}
+[4.894753] (traffic_light_monitor) StdoutLine: {'line': b"writing list of installed files to '/home/ajr/lud_a6w_main/build/traffic_light_monitor/install.log'\n"}
+[4.894882] (-) TimerEvent: {}
+[4.912718] (traffic_light_monitor) CommandEnded: {'returncode': 0}
+[4.930060] (traffic_light_monitor) JobEnded: {'identifier': 'traffic_light_monitor', 'rc': 0}
+[4.931684] (-) EventReactorShutdown: {}
