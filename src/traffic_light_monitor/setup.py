@@ -17,6 +17,7 @@ setup(
         'console_scripts': [
             'traffic_light_publisher = traffic_light_monitor.traffic_light_publisher:main',
             'traffic_light_subscriber = traffic_light_monitor.traffic_light_subscriber:main',
+            'vehicle_monitor_node = traffic_light_monitor.vehicle_monitor_node:main',
         ],
     },
 )
