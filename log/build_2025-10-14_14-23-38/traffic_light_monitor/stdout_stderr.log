@@ -1,0 +1,38 @@
+/home/ajr/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+running egg_info
+creating build/traffic_light_monitor/traffic_light_monitor.egg-info
+writing build/traffic_light_monitor/traffic_light_monitor.egg-info/PKG-INFO
+writing dependency_links to build/traffic_light_monitor/traffic_light_monitor.egg-info/dependency_links.txt
+writing entry points to build/traffic_light_monitor/traffic_light_monitor.egg-info/entry_points.txt
+writing requirements to build/traffic_light_monitor/traffic_light_monitor.egg-info/requires.txt
+writing top-level names to build/traffic_light_monitor/traffic_light_monitor.egg-info/top_level.txt
+writing manifest file 'build/traffic_light_monitor/traffic_light_monitor.egg-info/SOURCES.txt'
+reading manifest file 'build/traffic_light_monitor/traffic_light_monitor.egg-info/SOURCES.txt'
+writing manifest file 'build/traffic_light_monitor/traffic_light_monitor.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ajr/lud_a6w_main/build/traffic_light_monitor/build
+creating /home/ajr/lud_a6w_main/build/traffic_light_monitor/build/lib
+creating /home/ajr/lud_a6w_main/build/traffic_light_monitor/build/lib/traffic_light_monitor
+copying traffic_light_monitor/traffic_light_publisher.py -> /home/ajr/lud_a6w_main/build/traffic_light_monitor/build/lib/traffic_light_monitor
+copying traffic_light_monitor/traffic_light_subscriber.py -> /home/ajr/lud_a6w_main/build/traffic_light_monitor/build/lib/traffic_light_monitor
+copying traffic_light_monitor/vehicle_monitor_node.py -> /home/ajr/lud_a6w_main/build/traffic_light_monitor/build/lib/traffic_light_monitor
+copying traffic_light_monitor/__init__.py -> /home/ajr/lud_a6w_main/build/traffic_light_monitor/build/lib/traffic_light_monitor
+running install
+running install_lib
+creating /home/ajr/lud_a6w_main/install/traffic_light_monitor/lib/python3.10/site-packages/traffic_light_monitor
+copying /home/ajr/lud_a6w_main/build/traffic_light_monitor/build/lib/traffic_light_monitor/traffic_light_publisher.py -> /home/ajr/lud_a6w_main/install/traffic_light_monitor/lib/python3.10/site-packages/traffic_light_monitor
+copying /home/ajr/lud_a6w_main/build/traffic_light_monitor/build/lib/traffic_light_monitor/traffic_light_subscriber.py -> /home/ajr/lud_a6w_main/install/traffic_light_monitor/lib/python3.10/site-packages/traffic_light_monitor
+copying /home/ajr/lud_a6w_main/build/traffic_light_monitor/build/lib/traffic_light_monitor/vehicle_monitor_node.py -> /home/ajr/lud_a6w_main/install/traffic_light_monitor/lib/python3.10/site-packages/traffic_light_monitor
+copying /home/ajr/lud_a6w_main/build/traffic_light_monitor/build/lib/traffic_light_monitor/__init__.py -> /home/ajr/lud_a6w_main/install/traffic_light_monitor/lib/python3.10/site-packages/traffic_light_monitor
+byte-compiling /home/ajr/lud_a6w_main/install/traffic_light_monitor/lib/python3.10/site-packages/traffic_light_monitor/traffic_light_publisher.py to traffic_light_publisher.cpython-310.pyc
+byte-compiling /home/ajr/lud_a6w_main/install/traffic_light_monitor/lib/python3.10/site-packages/traffic_light_monitor/traffic_light_subscriber.py to traffic_light_subscriber.cpython-310.pyc
+byte-compiling /home/ajr/lud_a6w_main/install/traffic_light_monitor/lib/python3.10/site-packages/traffic_light_monitor/vehicle_monitor_node.py to vehicle_monitor_node.cpython-310.pyc
+byte-compiling /home/ajr/lud_a6w_main/install/traffic_light_monitor/lib/python3.10/site-packages/traffic_light_monitor/__init__.py to __init__.cpython-310.pyc
+running install_egg_info
+Copying build/traffic_light_monitor/traffic_light_monitor.egg-info to /home/ajr/lud_a6w_main/install/traffic_light_monitor/lib/python3.10/site-packages/traffic_light_monitor-1.0-py3.10.egg-info
+running install_scripts
+Installing traffic_light_publisher script to /home/ajr/lud_a6w_main/install/traffic_light_monitor/lib/traffic_light_monitor
+Installing traffic_light_subscriber script to /home/ajr/lud_a6w_main/install/traffic_light_monitor/lib/traffic_light_monitor
+writing list of installed files to '/home/ajr/lud_a6w_main/build/traffic_light_monitor/install.log'
