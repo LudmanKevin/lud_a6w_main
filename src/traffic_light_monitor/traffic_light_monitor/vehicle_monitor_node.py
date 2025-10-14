@@ -13,14 +13,14 @@ class VehicleMonitor(Node):
         self.publisher_ = self.create_publisher(String, 'vehicle_action', 10)
         self.get_logger().info("Vehicle monitor node started.")
 
-def listener_callback(self, msg):
-    light = msg.data()
-    action = {
-        'Piros': 'Megállás',
-        'Sárga': 'Lassítás',
-        'Zöld': 'Elindulás'
-    }.get(light, 'Ismeretlen')
-    self.get_logger().info(f'Jelzőlámpa: {light} -> Reakció: {action}')
+    def listener_callback(self, msg):
+        light = msg.data
+        action = {
+            'Piros': 'Megállás',
+            'Sárga': 'Lassítás',
+            'Zöld': 'Elindulás'
+        }.get(light, 'Ismeretlen')
+        self.get_logger().info(f'Jelzőlámpa: {light} -> Reakció: {action}')
 
 def main(args=None):
     rclpy.init(args=args)
