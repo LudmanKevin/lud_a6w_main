@@ -6,7 +6,7 @@ import time
 class TrafficLightPublisher(Node):
     def __init__(self):
         super().__init__('traffic_light_publisher')
-        self.publisher_ = self.create_publisher(String, 'traffic_light_state', 10)
+        self.subscription = self.create_subscription(String, 'traffic_light_state', self.listener_callback, 10)
         timer_period = 1.0
         self.timer = self.create_timer(timer_period, self.timer_callback)
         self.states = ["Piros", "Sárga", "Zöld"]
