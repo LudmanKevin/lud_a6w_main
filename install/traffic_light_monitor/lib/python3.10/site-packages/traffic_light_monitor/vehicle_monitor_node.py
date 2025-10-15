@@ -1,11 +1,13 @@
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String
+from rclpy.qos import QoSProfile
 
 class VehicleMonitor(Node):
     def __init__(self):
         super().__init__('vehicle_monitor_node')
-        self.subscription = self.create_subscription(String, 'traffic_light_state', self.listener_callback, 10)
+        qos_profile = QoSProfile(depth=10, reliability=rclpy.qos.ReliabilityPolicy.RELIABLE)
+        self.subscription = self.create_subscription(String, 'traffic_light_state', self.listener_callback, qos_profile)
         self.publisher_ = self.create_publisher(String, 'vehicle_action', 10)
         self.get_logger().info("Vehicle monitor node started.")
 

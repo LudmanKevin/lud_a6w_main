@@ -1,11 +1,13 @@
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String
+from rclpy.qos import QoSProfile
 
 class TrafficLightPublisher(Node):
     def __init__(self):
         super().__init__('traffic_light_publisher')
-        self.publisher_ = self.create_publisher(String, 'traffic_light_state', 10)
+        qos_profile = QoSProfile(depth=10, reliability=rclpy.qos.ReliabilityPolicy.RELIABLE)
+        self.publisher_ = self.create_publisher(String, 'traffic_light_state', qos_profile)
         self.timer = self.create_timer(2.0, self.publish_state)
         self.states = ['Piros', 'Sárga', 'Zöld']
         self.index = 0
