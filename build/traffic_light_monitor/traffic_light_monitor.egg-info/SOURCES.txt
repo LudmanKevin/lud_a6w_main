@@ -1,3 +1,4 @@
+package.xml
 setup.cfg
 setup.py
 ../../build/traffic_light_monitor/traffic_light_monitor.egg-info/PKG-INFO
@@ -7,6 +8,8 @@ setup.py
 ../../build/traffic_light_monitor/traffic_light_monitor.egg-info/requires.txt
 ../../build/traffic_light_monitor/traffic_light_monitor.egg-info/top_level.txt
 ../../build/traffic_light_monitor/traffic_light_monitor.egg-info/zip-safe
+launch/traffic_light_system.launch.py
+resource/traffic_light_monitor
 traffic_light_monitor/__init__.py
 traffic_light_monitor/traffic_light_publisher.py
 traffic_light_monitor/traffic_light_subscriber.py

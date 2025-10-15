@@ -1,2 +1,22 @@
 # lud_a6w_main
-Autonóm járművek és robotok programozása feladatok feltöltése.
+ROS 2 python package.  [![Static Badge](https://img.shields.io/badge/ROS_2-Humble-34aec5)](https://docs.ros.org/en/humble/)
+
+### Clone the packages
+``` r
+git clone https://github.com/LudmanKevin/lud_a6w_main
+```
+``` r
+cd ~/lud_a6w_main
+```
+
+
+### Build ROS 2 packages
+``` r
+colcon build --packages-select traffic_light_monitor
+```
+``` r
+source install/setup.bash
+```
+``` r
+ros2 launch traffic_light_monitor traffic_light_system.launch.py
+```

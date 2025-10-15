@@ -1,5 +1,3 @@
-/home/ajr/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
-  warnings.warn(
 running egg_info
 creating ../../build/traffic_light_monitor/traffic_light_monitor.egg-info
 writing ../../build/traffic_light_monitor/traffic_light_monitor.egg-info/PKG-INFO
@@ -30,10 +28,7 @@ byte-compiling /home/ajr/lud_a6w_main/install/traffic_light_monitor/lib/python3.
 byte-compiling /home/ajr/lud_a6w_main/install/traffic_light_monitor/lib/python3.10/site-packages/traffic_light_monitor/traffic_light_subscriber.py to traffic_light_subscriber.cpython-310.pyc
 byte-compiling /home/ajr/lud_a6w_main/install/traffic_light_monitor/lib/python3.10/site-packages/traffic_light_monitor/vehicle_monitor_node.py to vehicle_monitor_node.cpython-310.pyc
 byte-compiling /home/ajr/lud_a6w_main/install/traffic_light_monitor/lib/python3.10/site-packages/traffic_light_monitor/__init__.py to __init__.cpython-310.pyc
-running install_egg_info
-Copying ../../build/traffic_light_monitor/traffic_light_monitor.egg-info to /home/ajr/lud_a6w_main/install/traffic_light_monitor/lib/python3.10/site-packages/traffic_light_monitor-1.0-py3.10.egg-info
-running install_scripts
-Installing traffic_light_publisher script to /home/ajr/lud_a6w_main/install/traffic_light_monitor/lib/traffic_light_monitor
-Installing traffic_light_subscriber script to /home/ajr/lud_a6w_main/install/traffic_light_monitor/lib/traffic_light_monitor
-Installing vehicle_monitor_node script to /home/ajr/lud_a6w_main/install/traffic_light_monitor/lib/traffic_light_monitor
-writing list of installed files to '/home/ajr/lud_a6w_main/build/traffic_light_monitor/install.log'
+running install_data
+creating /home/ajr/lud_a6w_main/install/traffic_light_monitor/share/ament_index
+creating /home/ajr/lud_a6w_main/install/traffic_light_monitor/share/ament_index/resource_index
+creating /home/ajr/lud_a6w_main/install/traffic_light_monitor/share/ament_index/resource_index/packages

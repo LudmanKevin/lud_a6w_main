@@ -1,0 +1,39 @@
+[0.960s] Invoking command in '/home/ajr/lud_a6w_main/src/traffic_light_monitor': PYTHONPATH=/home/ajr/lud_a6w_main/build/traffic_light_monitor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ajr/lud_a6w_main/install/traffic_light_monitor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/traffic_light_monitor build --build-base /home/ajr/lud_a6w_main/build/traffic_light_monitor/build install --record /home/ajr/lud_a6w_main/build/traffic_light_monitor/install.log --install-scripts $base/lib/traffic_light_monitor --single-version-externally-managed install_data
+[1.269s] /home/ajr/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.269s]   warnings.warn(
+[1.291s] running egg_info
+[1.291s] creating ../../build/traffic_light_monitor/traffic_light_monitor.egg-info
+[1.292s] writing ../../build/traffic_light_monitor/traffic_light_monitor.egg-info/PKG-INFO
+[1.304s] writing dependency_links to ../../build/traffic_light_monitor/traffic_light_monitor.egg-info/dependency_links.txt
+[1.305s] writing entry points to ../../build/traffic_light_monitor/traffic_light_monitor.egg-info/entry_points.txt
+[1.305s] writing requirements to ../../build/traffic_light_monitor/traffic_light_monitor.egg-info/requires.txt
+[1.306s] writing top-level names to ../../build/traffic_light_monitor/traffic_light_monitor.egg-info/top_level.txt
+[1.306s] writing manifest file '../../build/traffic_light_monitor/traffic_light_monitor.egg-info/SOURCES.txt'
+[1.309s] reading manifest file '../../build/traffic_light_monitor/traffic_light_monitor.egg-info/SOURCES.txt'
+[1.309s] writing manifest file '../../build/traffic_light_monitor/traffic_light_monitor.egg-info/SOURCES.txt'
+[1.309s] running build
+[1.309s] running build_py
+[1.310s] creating /home/ajr/lud_a6w_main/build/traffic_light_monitor/build
+[1.310s] creating /home/ajr/lud_a6w_main/build/traffic_light_monitor/build/lib
+[1.310s] creating /home/ajr/lud_a6w_main/build/traffic_light_monitor/build/lib/traffic_light_monitor
+[1.310s] copying traffic_light_monitor/traffic_light_publisher.py -> /home/ajr/lud_a6w_main/build/traffic_light_monitor/build/lib/traffic_light_monitor
+[1.311s] copying traffic_light_monitor/traffic_light_subscriber.py -> /home/ajr/lud_a6w_main/build/traffic_light_monitor/build/lib/traffic_light_monitor
+[1.312s] copying traffic_light_monitor/vehicle_monitor_node.py -> /home/ajr/lud_a6w_main/build/traffic_light_monitor/build/lib/traffic_light_monitor
+[1.313s] copying traffic_light_monitor/__init__.py -> /home/ajr/lud_a6w_main/build/traffic_light_monitor/build/lib/traffic_light_monitor
+[1.313s] running install
+[1.313s] running install_lib
+[1.314s] creating /home/ajr/lud_a6w_main/install/traffic_light_monitor/lib/python3.10/site-packages/traffic_light_monitor
+[1.314s] copying /home/ajr/lud_a6w_main/build/traffic_light_monitor/build/lib/traffic_light_monitor/traffic_light_publisher.py -> /home/ajr/lud_a6w_main/install/traffic_light_monitor/lib/python3.10/site-packages/traffic_light_monitor
+[1.315s] copying /home/ajr/lud_a6w_main/build/traffic_light_monitor/build/lib/traffic_light_monitor/traffic_light_subscriber.py -> /home/ajr/lud_a6w_main/install/traffic_light_monitor/lib/python3.10/site-packages/traffic_light_monitor
+[1.316s] copying /home/ajr/lud_a6w_main/build/traffic_light_monitor/build/lib/traffic_light_monitor/vehicle_monitor_node.py -> /home/ajr/lud_a6w_main/install/traffic_light_monitor/lib/python3.10/site-packages/traffic_light_monitor
+[1.316s] copying /home/ajr/lud_a6w_main/build/traffic_light_monitor/build/lib/traffic_light_monitor/__init__.py -> /home/ajr/lud_a6w_main/install/traffic_light_monitor/lib/python3.10/site-packages/traffic_light_monitor
+[1.317s] byte-compiling /home/ajr/lud_a6w_main/install/traffic_light_monitor/lib/python3.10/site-packages/traffic_light_monitor/traffic_light_publisher.py to traffic_light_publisher.cpython-310.pyc
+[1.318s] byte-compiling /home/ajr/lud_a6w_main/install/traffic_light_monitor/lib/python3.10/site-packages/traffic_light_monitor/traffic_light_subscriber.py to traffic_light_subscriber.cpython-310.pyc
+[1.319s] byte-compiling /home/ajr/lud_a6w_main/install/traffic_light_monitor/lib/python3.10/site-packages/traffic_light_monitor/vehicle_monitor_node.py to vehicle_monitor_node.cpython-310.pyc
+[1.320s] byte-compiling /home/ajr/lud_a6w_main/install/traffic_light_monitor/lib/python3.10/site-packages/traffic_light_monitor/__init__.py to __init__.cpython-310.pyc
+[1.321s] running install_data
+[1.321s] creating /home/ajr/lud_a6w_main/install/traffic_light_monitor/share/ament_index
+[1.321s] creating /home/ajr/lud_a6w_main/install/traffic_light_monitor/share/ament_index/resource_index
+[1.321s] creating /home/ajr/lud_a6w_main/install/traffic_light_monitor/share/ament_index/resource_index/packages
+[1.321s] error: can't copy 'resource/traffic_light_monitor': doesn't exist or not a regular file
+[1.335s] Invoked command in '/home/ajr/lud_a6w_main/src/traffic_light_monitor' returned '1': PYTHONPATH=/home/ajr/lud_a6w_main/build/traffic_light_monitor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ajr/lud_a6w_main/install/traffic_light_monitor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/traffic_light_monitor build --build-base /home/ajr/lud_a6w_main/build/traffic_light_monitor/build install --record /home/ajr/lud_a6w_main/build/traffic_light_monitor/install.log --install-scripts $base/lib/traffic_light_monitor --single-version-externally-managed install_data
