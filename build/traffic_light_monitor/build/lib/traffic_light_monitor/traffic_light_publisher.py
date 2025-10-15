@@ -1,8 +1,6 @@
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String
-import random
-import time
 
 class TrafficLightPublisher(Node):
     def __init__(self):

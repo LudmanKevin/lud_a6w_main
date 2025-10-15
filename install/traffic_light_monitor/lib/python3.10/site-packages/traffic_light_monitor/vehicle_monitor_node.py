@@ -5,11 +5,7 @@ from std_msgs.msg import String
 class VehicleMonitor(Node):
     def __init__(self):
         super().__init__('vehicle_monitor_node')
-        self.subscription = self.create_subscription(
-            String,
-            'traffic_light_state',
-            self.listener_callback,
-            10)
+        self.subscription = self.create_subscription(String, 'traffic_light_state', self.listener_callback, 10)
         self.publisher_ = self.create_publisher(String, 'vehicle_action', 10)
         self.get_logger().info("Vehicle monitor node started.")
 

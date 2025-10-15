@@ -1,11 +1,10 @@
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String
-import time
 
-class TrafficLightPublisher(Node):
+class TrafficLightSubscriber(Node):
     def __init__(self):
-        super().__init__('traffic_light_publisher')
+        super().__init__('traffic_light_subscriber')
         self.subscription = self.create_subscription(String, 'traffic_light_state', self.listener_callback, 10)
         timer_period = 1.0
         self.timer = self.create_timer(timer_period, self.timer_callback)
@@ -33,7 +32,7 @@ class TrafficLightPublisher(Node):
 
 def main(args=None):
     rclpy.init(args=args)
-    node = TrafficLightPublisher()
+    node = TrafficLightSubscriber()
     rclpy.spin(node)
     node.destroy_node()
     rclpy.shutdown()
