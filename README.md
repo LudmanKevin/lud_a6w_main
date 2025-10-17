@@ -6,7 +6,7 @@ ROS 2 python package.  [![Static Badge](https://img.shields.io/badge/ROS_2-Humbl
 cd ~/ros2_ws/src
 ```
 ``` r
-git clone https://github.com/sze-info/ros2_py_template
+git clone https://github.com/LudmanKevin/lud_a6w_main
 ```
 
 
