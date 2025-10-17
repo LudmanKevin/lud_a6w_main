@@ -9,6 +9,7 @@ A traffic_light_monitor egy jelzőlámpa és egy jármű viszonyát hivatott szi
 ```mermaid
 graph LR
     A[traffic_light_publisher] -->|/traffic_light_state| B[vehicle_monitor_node]
+```
 
 ### Clone the packages
 ``` r
