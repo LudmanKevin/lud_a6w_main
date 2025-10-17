@@ -3,10 +3,10 @@ ROS 2 python package.  [![Static Badge](https://img.shields.io/badge/ROS_2-Humbl
 
 ### Clone the packages
 ``` r
-git clone https://github.com/LudmanKevin/lud_a6w_main
+cd ~/ros2_ws/src
 ```
 ``` r
-cd ~/lud_a6w_main
+git clone https://github.com/sze-info/ros2_py_template
 ```
 
 
