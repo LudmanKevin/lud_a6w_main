@@ -4,6 +4,12 @@ ROS 2 python package.  [![Static Badge](https://img.shields.io/badge/ROS_2-Humbl
 ### Működés leírása
 A traffic_light_monitor egy jelzőlámpa és egy jármű viszonyát hivatott szimulálni. A jelzőlámpa szerepét a traffic_light_publiser látja el. Három féle állapot között válakozik: piros, sárga és zöld. A jármű szerepét a vehicle_monitor_node látja el, és a traffic_light_publiser által hirdetett lámpaállapotokra reagál: ha piros, akkor megáll, ha sárga akkor lassít, és ha zöld, akkor elindul.
 
+### Működési árba
+
+```mermaid
+graph LR
+    A[traffic_light_publisher] -->|/traffic_light_state| B[vehicle_monitor_node]
+
 ### Clone the packages
 ``` r
 cd ~/ros2_ws/src
